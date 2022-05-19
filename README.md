@@ -31,7 +31,7 @@ subject student secure more than or equal to 35 marks add all subject
 marks and find percentage and print it. If student is failed in one or more
 subject print failed along with subject number/numbers.
 Example: 78 34 89 64 21
-Output: Failed 25
+Output: Failed 2 5
 
 5. Accept a two digits number from command line argument like 01 or 02
 or 11 or 99 and suppose these are the years like 1901,1902, 1911 and
