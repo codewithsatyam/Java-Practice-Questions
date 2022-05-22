@@ -107,3 +107,24 @@ in Fibonacci series for example 0 1 1 2 3 5 8 13..... so these all terms are
 Fibonacci terms.
 
 ************************************************
+### Assignment 4 |
+Q.1 write a program to find largest and smallest number in unsorted array of 10 integers.
+
+Q.2 write a program to accept n positive and negative integers in array in random order now
+rearrange the array such that beginning part of array contains positive numbers followed by
+negative numbers.
+
+Q.3 Write a program to ask the user to enter the number of branches of mysirg academy.
+Now ask the user to enter the number of courses running in first branch and the number of
+students in each course of that branch and do the same process for rest mysirg academy
+branches. Now calculate and display the total number of students in each branch of mysirg
+academy.
+
+Q.4 Write A program to accept n digit number now find the length of that number and store
+each digit in array. Now find the sum and average of stored element.
+
+Q.5 Write a program to create a 2d int array of size nxm where n and m should be taken by
+user. Now accept input in it. Now find the sum of all boundary elements. (that means only
+the elements which are available on border of array).
+
+***************************************************
