@@ -49,7 +49,7 @@ the result. If user enters false terminate the process.
 2. WAP to accept two numbers where n1>n2 or n2>n1 both allowed but
 n1==n2 not allowed your task is to find all the numbers between n1 and
 n2 (including n1 and n2) that are divisible by 3 and 5 both numbers. And
-output should be get printed in increasing order of numbers.
+output should be get printed in increasing order of numbers.<br>
 Example: n1=30, n2=10 numbers between n1 and n2 that are divisible by
 3 and 5 both are 15 and 30 only so print 15 30 in output (in increasing
 order).
@@ -64,14 +64,14 @@ Armstrong number or not.
 
 5. WAP to accept three numbers n1 n2 and p from the user and find the
 even numbers between the n1 and n2 (including n1 and n2) now your
-task is to only print all the pth even number found between n1 and n2.
+task is to only print all the pth even number found between n1 and n2.<br>
 Example: n1 =2 n2=20 p=3
 All even numbers between n1 and n2 are 2 4 6 8 10 12 14 16 18 20
 Here p=3 so print every third even number from the sequence so output
 will be 6 12 18.
 
 6. WAP to find the kth digit of a accepted numbers. So accept two numbers
-In and k where k denotes place of digit that has to display.
+n and k where k denotes place of digit that has to display.<br>
 Example n=56789 and k=2 so from right to left 8 is the second digit so
 print 8 in output.
 If k is greater than number of digits available in n print message kth digit
