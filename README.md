@@ -240,4 +240,72 @@ flat.
 *****************************************************
 ### Assignment 7 | Exception Handling 
 
+Q.1 Create a class called Licence having data member as name (String) and DOB(String).
+Create Parameterized constructor that initialize data members like Licence (String, String).
+Now design a method called canDrive() in your class this method should calculate the age of
+the person .it generates the user defined exception if the age is below 18 finally the msg
+should display by main() that the user is eligible or not.
+
+Q.2 Create a class called Findsqrt. it has two methods getNumber() method which accepts a
+no from user and calculate() method which calculates the sqrt value of that no if given no is
+negative no. then generate a user defined exception ComplexNumberException and give the
+appropriate message in the calculate() method?
+
+Q.3 Create a class called password having String data member for storing password. Create
+parameterize constructor to initialize it. now create method called as getPassword () which
+accepts password from the user. if provided password is getting wrong then generate an
+exception PasswordMismatchException and give the msg stored in object of
+PasswordMismatchException along with "TRY AGAIN" and again ask for password. The
+program should ask the password for 3 times. After 3rd time program generate an Exception
+called as PasswordVarificationExpiersException and give the message stored in
+PasswordVarification Expiers Exception object in displayMsg() method. if password matches
+then give welcome message in same displayMsg() method. Now create the class which
+contains main() make object of Password class and call the methods appropriately?
+
+Q. 4 Create a class called ArrayDemo having a int array reference as data member now create
+method init() which accepts size of array as an argument and create the array of that size and
+also initialized it. Create one more method called as getValueAt() which accept index value
+as an argument. If index value is not valid it generates the Exception
+ArrayIndexOutOfBoundsException and give the appropriate error message.
+
+Q.5 create a class called Account which have account number, name and balance as data
+members now create three methods getData() to initialize the data members, deposit(int)
+and withdrawal(int) both accepts an amount. deposit() will add amount in balance and
+withdrawal() will subtract it from balance. If you pass any negative or zero amount to deposit() and withdrawal() it should generate InvalidAmountException and if you pass amount which
+is greater than remaining balance then withdrawal() should generate
+InsufficientBalanceException with appropriate message. Create a class which contains main
+initialize Account class and calls method appropriately.
+
+**********************************************************
+### Assignment 8 | Multithreading
+
+1. Write a program to create two threads in a program assign the names addition and
+multiplication to them. Now add first 50 number with in thread addition and multiply first 30
+numbers in thread multiplication. Finally print the result of both threads.
+
+2. Write a program to create an int array of size 10 initialize it with only positive integers. Now
+create 4 threads named as add, sub, mul and div. perform corresponding operations over
+array elements in each thread and display the result of each thread but output should be in
+order of add, sub, mul then div.
+
+3. Write a program to print tables with the help of multiple threads create three threads
+named as T1, T2 and T3. T1 thread prints the table of 11 and 12, T2 prints table of 13 and 14
+and T3 prints table of 15 and 16. Any thread can start first but once any one starts to print
+table of any number it is not allowed to print different table by another thread. For example,
+suppose thread t3 starts first and start printing 15 table now until table of 15 gets completed
+no one prints another table. once the printing of 15 table has ended any one allowed to
+print another table.
+
+4. Write a program to add first 50000 numbers and display it's total but to make this process
+fast take the help of multithreading concepts create 4 threads each will add the quarter
+portion of first 50000 numbers like T1 adds 1 to 12500, T2 adds 12501 to 25000 and so on.
+Now to complete the operation finally add all 4 parts of addition calculated by 4 threads to
+get whole.
+
+5. Write a program to solve the producer consumer problem.
+
+*****************************************************
+
+
+
 
