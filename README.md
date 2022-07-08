@@ -128,3 +128,116 @@ user. Now accept input in it. Now find the sum of all boundary elements. (that m
 the elements which are available on border of array).
 
 ***************************************************
+### Assignment 5 |
+1. Create a Student class with rollno, name, totalmarks as data members.
+Create the constructor to initialize them. Now create the array of
+students where array size given by user. Now find the topper of class by
+comparing total marks of student finally display the rollno, name and
+marks of topper student.
+
+2. Create a class Employee with data member id, name, sal and
+commission. Create the constructor to initialize them. Your task is to find
+the number of employee in company at any point of time. Also find the
+lowest paid employee. The lowest paid employee should have sal +
+commission value minimum.
+
+3. Create an array such that it keeps the record of grocery items per
+month. For example, in January month you purchased 5 items of 100
+200 150 290 540 rupees. While in February you only purchased 3 items
+of 540 100 and 230. Your task is to maintain 12-month grocery
+expenditure in array and find the month in which your expenditure is
+most. Print the number of that month in output.
+
+4. Create a class Employee with data member id, department and sal. for
+department three values are there Manager, HR, Finance for these three
+company provide bonus as 25000, 20000 and 18000 respectively. Your
+task is to create the array of Employee where array size given by user.
+Initialize the data members using constructor and finally print the total
+sal= sal+bonus occupied by each employee. You can create methods in
+class as per your requirement.
+
+To compare the department please use String class equals() method.
+*******************************************************
+### Assignment 6 |
+
+Note: choose wisely you have to create interface or abstract class for below
+questions.
+
+Q.1 create a program which converts a given measurement into another unit
+of measurement like Kilometre to meter. For this declare three constants in
+interface/abstract class choose wisely.
+1. KM_TO_M=1000
+2. M_TO_CM=100
+3. CM_TO_MM=10
+
+Now create Converter class which inherits the above interface/abstract class
+and have following methods
+1. Public double Kilometer_to_meter(double)
+2. Public double meter_to_centimeter(double)
+3. Public double centimeter_to_milimeter(double)
+
+Define methods appropriately and converts the given measurements.
+
+Now create another class which contain the main method create object of
+Converter class and call methods appropriately.
+
+Q.2 Write a program to calculate the total area of shape. For this declare two
+methods in Shape interface/abstract class choose wisely.
+1. Public double getArea()
+2. Public String getName()
+
+Create three classes Circle, Triangle and Square. All classes inherit *Shape*. In
+these three classes provide constructor to initialize their data members to
+calculate the area and overrides **Shape** methods appropriately.
+
+Now create a class which contains the main method. Inside main method
+creates array of **Shape** and fill array with object of Circle, Triangle and Square.
+Call the methods appropriately to obtain area of each shape.
+
+Q.3 create a interface/abstract class Employee which contains following data
+members and methods Data members:
+1. String name 
+2. Double salary 
+3. Double bonus
+4. Double commission
+5. String designation
+ 
+Methods
+1. Public String getName()
+2. Public String getDesignation()
+3. Public Double getSal()
+4. Public Double getBonus()
+5. Public Double getcomm()
+6. Public Double totalIncome()
+
+Now create following classes which inherits Employee.
+1. Manager which gets salary, bonus and commission.
+2. Salesman which gets salary and commission.
+3. Developer which gets salary and bonus.
+
+So appropriately overrides methods in each class.
+
+Now create a class which contains the main method. Inside main method
+creates objects of Manager, Salesman and Developer and find the total income
+of each of them.
+
+Q.4 create an interface/abstract class called Apartment which contains
+following methods.
+Methods
+1. Public double getBedroom1Area(double length, double width)
+2. Public double getBedroom2Area(double length, double width)
+3. Public double get Bedroom3Area(double length, double width)
+4. Public double getKitchenArea(double length, double width)
+5. Public double getHallArea(double length, double width)
+6. Public double getTotalArea()
+
+Now create three classes OneBHK, TwoBHK, ThreeBHK. All should inherit
+Apartment. Overrides the method appropriately in these classes.
+
+Now create a class which contains the main method. Inside main method
+creates objects of OneBHK, TwoBHK, ThreeBHK. and find the total area of each
+flat.
+*****************************************************
+### Assignment 7 | Exception Handling 
+
+
